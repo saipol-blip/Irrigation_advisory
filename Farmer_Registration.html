@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Irrigation Advisory System</title>
+<link rel="stylesheet" href="gallery.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="table.css">
+<link rel="stylesheet" href="form.css">
+
+<body style="background-color: rgb(169, 212, 172);"></body>
+<header>
+  <img src="c:\Users\JAYPRAKASH POL\Downloads\logo.png" alt="Logo" width="100" height="100" style="flex-shrink: 0;">
+  <h1 style="text-align:center">Irrigation Advisory System</h1>
+  <h2 style="text-align: center;"><i>Smart Irrigation using AI &amp; Sensor Technology</i></h2>
+</header>
+
+<body>
+  <h1 style="color: rgb(36, 6, 5);">Farmer Registration</h1>
+  <form action="#" method="post" enctype="multipart/form-data">
+    <fieldset>
+      <legend>Farmer Details</legend>
+
+      <!-- Name -->
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required autofocus /><br><br>
+
+      <!-- Mobile Number -->
+      <label for="mobile">Mobile Number:</label><br>
+      <input type="tel" id="mobile" name="mobile" placeholder="e.g., xxxxxxxxxx" pattern="\d{10}"
+        title="Please enter a 10-digit mobile number" required /><br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required /><br><br>
+    </fieldset>
+  </form>
+  <form>
+    <fieldset>
+      <legend>Crop Details</legend>
+      <!-- Plot ID -->
+      <label for="plotID">Plot ID:</label><br>
+      <input type="text" id="plotID" name="plotID" placeholder="Enter your Plot ID" required /><br><br>
+
+      <!-- Village -->
+      <label for="village">Village:</label><br>
+      <input type="text" id="village" name="village" placeholder="Enter Village Name" required /><br><br>
+
+      <!-- Crop Stage -->
+      <label for="cropStage">Crop Stage:</label><br>
+      <select id="cropStage" name="cropStage" required>
+        <option value="">Select Crop Stage</option>
+        <option value="Sowing">Sowing</option>
+        <option value="Growing">Growing</option>
+        <option value="Harvesting">Harvesting</option>
+      </select><br><br>
+
+      <!-- Soil Type -->
+      <label for="soilType">Soil Type:</label><br>
+      <input type="text" id="soilType" name="soilType" placeholder="e.g., Loamy, Sandy" required /><br><br>
+
+      <!-- Irrigation Method -->
+      <label>Irrigation Method:</label><br>
+      <input type="radio" id="drip" name="irrigation" value="drip" required> <label for="drip">Drip</label>
+      <input type="radio" id="sprinkler" name="irrigation" value="sprinkler"> <label for="sprinkler">Sprinkler</label>
+      <input type="radio" id="flood" name="irrigation" value="flood"> <label for="flood">Flood</label><br><br>
+
+      <!-- Date -->
+      <label for="date">Date:</label><br>
+      <input type="date" id="date" name="date" required /><br><br>
+
+      <!-- Farm Photo Upload -->
+      <label for="farmPhoto">Farm Photo:</label><br>
+      <input type="file" id="farmPhoto" name="farmPhoto" accept="image/*" required /><br><br>
+    </fieldset>
+  </form>
+  <input type="submit" value="Register">
+  <input type="reset" value="Clear Form">
+  <br>
+  <br>
+  <footer>
+    <p>© 2026 AGRI. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

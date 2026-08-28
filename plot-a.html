@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<style>
+  footer {
+    background-color: #42744c;
+    color: #eef3a2;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+    border: 3px solid #32492f;
+    position: fixed;
+  }
+
+  header {
+    background-color: #42744c;
+    color: #eef3a2;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+    border: 3px solid #32492f;
+  }
+
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+
+
+  .urgent-alert {
+    background-color: #d8a3a3;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #503535;
+    animation: glow 1.5s infinite alternate;
+  }
+
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px #383131;
+    }
+
+    100% {
+      box-shadow: 0 0 15px #ff5252, 0 0 25px #ff4444;
+    }
+  }
+</style>
+<title>Irrigation Advisory System</title>
+
+<body style="background-color: rgb(169, 212, 172);"></body>
+<header>
+  <img src="c:\Users\JAYPRAKASH POL\Downloads\logo.png" alt="Logo" width="100" height="100" style="flex-shrink: 0;">
+  <h1 style="text-align:center">Irrigation Advisory System</h1>
+  <h2 style="text-align: center;"><i>Smart Irrigation using AI &amp; Sensor Technology</i></h2>
+</header>
+
+<div class="urgent-alert" style="color: #dd3417;">
+  Urgent: Water Stress Level Rising - Irrigate Within 6 Hours
+</div>
+
+<h1>Plot A Details</h1>
+<ul>
+  <li><strong>Farmer:</strong> Alex</li>
+  <li><strong>Crop:</strong> Sugarcane</li>
+  <li><strong>Soil Moisture:</strong> 12%</li>
+  <li><strong>Recommendation:</strong> Irrigate immediately.</li>
+</ul>
+<a href="Farm_Map_Navigation.html">Back to Farm Map</a>
+<footer>
+  <p>© 2026 AGRI. All rights reserved.</p>
+</footer>
+</body>
+
+</html>

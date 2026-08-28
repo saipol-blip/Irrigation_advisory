@@ -1,0 +1,29 @@
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+}
+caption {
+font-weight: bold;
+margin-bottom: 8px;
+color: #081809;
+}
+th, td {
+border: 1px solid #999999;
+padding: 10px;
+text-align: center;
+}
+thead {
+background-color: #2a2f47;
+color: #ffffff;
+}
+tbody tr:nth-child(even) {
+background-color: #eef5ee;
+}
+tbody tr:nth-child(odd) {
+background-color: #ffffff;
+}
+tfoot {
+background-color: #f0f0f0;
+font-style: italic;
+}

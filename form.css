@@ -1,0 +1,67 @@
+fieldset {
+    border: 2px solid #2b170b;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+legend {
+    font-weight: bold;
+    color: #082b09;
+    padding: 0 8px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin: 8px 0;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+select {
+    width: 260px;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #2e7d32;
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+}
+
+input[type="submit"] {
+    background-color: #31693f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #7eac6c;
+}
+
+input[type="reset"] {
+    background-color: #f1cece;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: #999999;
+}

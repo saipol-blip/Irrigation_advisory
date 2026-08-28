@@ -1,0 +1,27 @@
+.gallery-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+.gallery-grid figure {
+margin: 0;
+text-align: center;
+}
+.gallery-grid img {
+width: 250px;
+height: 180px;
+object-fit: cover;
+border: 3px solid #204121;
+border-radius: 6px;
+transition: transform 0.4s ease;
+cursor: pointer;
+}
+.gallery-grid img:hover {
+transform: scale(1.1);
+}
+.gallery-grid figcaption {
+margin-top: 8px;
+font-weight: bold;
+color: #193b1a;
+}
