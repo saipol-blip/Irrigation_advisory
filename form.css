@@ -3,7 +3,7 @@ fieldset {
     border-radius: 8px;
     padding: 15px 20px;
     margin-bottom: 20px;
-    width: 50%;
+    width: 100%;
 }
 
 legend {
@@ -22,6 +22,7 @@ label {
 input[type="text"],
 input[type="tel"],
 input[type="email"],
+input[type="number"],
 input[type="date"],
 input[type="file"],
 select {
@@ -32,12 +33,26 @@ select {
     border-radius: 5px;
 }
 
-input:focus,
-select:focus {
-    outline: none;
-    border-color: #2e7d32;
-    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+input[type="submit"] {
+    background-color: #31693f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
 }
+
+input[type="submit"] {
+    background-color: #31693f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 
 input[type="submit"] {
     background-color: #31693f;
@@ -64,4 +79,60 @@ input[type="reset"] {
 
 input[type="reset"]:hover {
     background-color: #999999;
+}
+
+form {
+    width: 50%;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+}
+
+/* Form groups */
+.form-group {
+    margin-bottom: 10px;
+}
+
+/* Error messages */
+.error {
+    display: block;
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+/* Invalid fields */
+input.invalid,
+select.invalid {
+    border: 2px solid #f08080;
+    border-radius: 5px;
+}
+
+/* Valid fields */
+input.valid,
+select.valid {
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+/* Success message */
+.success {
+    display: block;
+    color: #1e7e34;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    margin: 15px auto;
 }
